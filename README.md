@@ -5,15 +5,31 @@ The purpose of anspy is to solve questions while writing a program on the termin
 
 By using anspy, you can efficiently solve questions that come up when you are learning programming or writing a program.<br>
 
-## How to install anspy
+## How to use anspy
+
+<br>Enter your openai API-key in the API-key section.
+
 ```
-$ pip install anspy
+import openai
+
+openai.api_key = "API-key"
+
+question = input("Enter your question : ")
+
+res = openai.Completion.create(
+	engine = "text-davinci-003",
+	prompt = question,
+	max_tokens = 1024,
+	temperature = 1.0
+)
+
+print(res.choices[0].text)
 ```
 
 ## How to run anspy
 
 ```
-$ anspy
+~/anspy.py $ python anspy.py
 ```
 
 <br>English Versions
