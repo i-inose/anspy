@@ -1,5 +1,7 @@
 ## anspy
-anspy is a PyPI tool, a terminal version of ChatGPT developed using openai's api and python.<br>
+anspy is a terminal version of ChatGPT developed using openai's api and python.<br>
+
+Please download the python file from above and actually use it by following the procedure explained below.<br>
 
 The purpose of anspy is to solve questions while writing a program on the terminal without having to jump to the ChatGPT site.<br>
 
