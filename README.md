@@ -44,5 +44,5 @@ print(res.choices[0].text)
 <br>
 <img src="https://github.com/i-inose/anspy/blob/main/anspy-img2.png?raw=true"><br>
 
-Written by Izuru Inose<br>
+Written by Izuru Inose / 伊野瀬出<br>
 -At the Takefuji Lab-
